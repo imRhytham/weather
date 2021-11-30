@@ -45,7 +45,7 @@ function Weather() {
                 <button className='btn' onClick={()=>sendData()}>Submit</button>
             </div>
             <div className='appdata'>
-                <h3 className='temp'>{location}</h3>
+                <h3 className='temp'>weather forecast in {location}</h3>
                 <p className='temp'><WiThermometer /> {weather?.main?.temp}°C</p>
                 <p className='temp'><WiHumidity /> {weather?.main?.humidity}%</p>
             </div>    
