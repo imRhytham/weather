@@ -4,7 +4,7 @@ import { WiThermometer, WiHumidity } from "react-icons/wi";
 function Weather() {
     const [weather, setWeather] = useState({});
     const [location, setLocation] = useState('Mumbai');
-    const key = '3bafbc93bf440a4b95bc2d132b6b05f2'
+    const key = ''
     useEffect(() => {
         sendData();
     },[])
